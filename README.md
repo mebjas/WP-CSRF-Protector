@@ -1,4 +1,4 @@
-WP CSRF Protector
+WP CSRF Protector [![todofy badge](https://todofy.org/b/mebjas/WP-CSRF-Protector)](https://todofy.org/r/mebjas/WP-CSRF-Protector)
 ======================
 **WP CSRF Protector** is based on **[OWASP CSRF Protector php](https://github.com/mebjas/CSRF-Protector-PHP)** aims at providing full proof CSRF Protection to **wordpress**. Current CSRF mitigation in wordpress requires the plugin developers to call a method to attach a nonce to the HTML output, so if a developer (intensionally or unintensionally) leaves that part, it leaves the plugin and thus the whole admin panel vulnerable to CSRF.
 
